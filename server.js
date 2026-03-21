@@ -33,7 +33,7 @@ h2{margin-top:0}
 <div id="app"></div>
 
 <script>
-https://get-ticket-ki4qgf00o-nixonnyambati1994-6752s-projects.vercel.app/
+https://get-ticket.vercel.app/
 
 function show(page){
   if(page==='pay') payUI();
