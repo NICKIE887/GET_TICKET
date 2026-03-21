@@ -33,7 +33,7 @@ h2{margin-top:0}
 <div id="app"></div>
 
 <script>
-const API = "https://your-vercel-app.vercel.app/api"; // 🔁 CHANGE THIS
+https://get-ticket-ki4qgf00o-nixonnyambati1994-6752s-projects.vercel.app/
 
 function show(page){
   if(page==='pay') payUI();
