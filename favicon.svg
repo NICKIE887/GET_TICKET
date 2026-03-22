@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="GETTICKET logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a7f5a" />
+      <stop offset="100%" stop-color="#0f8c6e" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe082" />
+      <stop offset="100%" stop-color="#d4a62a" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)" />
+  <path d="M27 46c8 0 8-8 16-8h42c8 0 8 8 16 8v12c-8 0-8 8-16 8H43c-8 0-8 8-16 8V46Z" fill="#fffaf2" opacity="0.98"/>
+  <path d="M27 82c8 0 8 8 16 8h42c8 0 8-8 16-8V70c-8 0-8-8-16-8H43c-8 0-8 8-16 8v12Z" fill="#fffaf2" opacity="0.98"/>
+  <path d="M56 50h20v8H56c-5.523 0-10 4.477-10 10s4.477 10 10 10h11v-6H55v-8h20v22H56c-9.941 0-18-8.059-18-18s8.059-18 18-18Z" fill="url(#gold)"/>
+  <circle cx="89" cy="64" r="4" fill="#0a7f5a" opacity="0.85"/>
+  <circle cx="99" cy="64" r="4" fill="#0a7f5a" opacity="0.55"/>
+</svg>
