@@ -99,15 +99,11 @@ button,input,textarea,select{font:inherit}
 }
 
 .brand__mark{
-  width:44px;
-  height:44px;
-  border-radius:14px;
-  display:grid;
-  place-items:center;
-  background:linear-gradient(135deg, var(--gold), var(--rose));
-  color:#fffaf4;
-  font-weight:700;
-  letter-spacing:0.08em;
+  width:48px;
+  height:48px;
+  display:block;
+  object-fit:contain;
+  filter:drop-shadow(0 8px 18px rgba(12,108,85,0.18));
 }
 
 .brand__text strong{
@@ -590,7 +586,7 @@ button,input,textarea,select{font:inherit}
   <div class="topbar">
     <header class="nav">
       <div class="brand">
-        <div class="brand__mark">GT</div>
+        <img class="brand__mark" src="/favicon.svg" alt="GETTICKET logo">
         <div class="brand__text">
           <strong>GET TICKET PRO</strong>
           <span>Premium event commerce for modern audiences</span>
@@ -1163,6 +1159,7 @@ loadEvents().then(() => {
 
 </body>
 </html>
+
 
 
 
