@@ -1,0 +1,46 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": null,
+  "builds": [
+    {
+      "src": "get_ticket_premium_index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "favicon.svg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "^/$",
+      "dest": "/get_ticket_premium_index.html"
+    },
+    {
+      "src": "^/favicon\\.svg$",
+      "dest": "/favicon.svg"
+    },
+    {
+      "src": "^/api/events$",
+      "dest": "/api/events.js"
+    },
+    {
+      "src": "^/api/create-checkout-session$",
+      "dest": "/api/create-checkout-session.js"
+    },
+    {
+      "src": "^/api/ticket$",
+      "dest": "/api/ticket.js"
+    },
+    {
+      "src": "^/api/health$",
+      "dest": "/api/health.js"
+    }
+  ]
+}
+
